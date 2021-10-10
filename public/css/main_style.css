@@ -1,20 +1,25 @@
 .margins {
 	margin-top: 10px; 
 }
+
 html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 #footer {
   background-color: #d4e6ff;
 }
+
 .logo {
 	font-family: 'Press Start 2P', cursive; font-size: 1em;
 }
+
 .border_solid {
     border: 2px dashed black;
 }
