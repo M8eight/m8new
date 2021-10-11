@@ -33,7 +33,7 @@
         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
           data-bs-parent="#accordionFlushExample">
           <div class="accordion-body">Можно написать что хотите и оно появится на сайте
-            <a class="btn btn-warning margins_a" href="applications/coment.php" role="button">Открыть</a>
+            <a class="btn btn-warning margins_a" href="{{ route('apps-note-show') }}" role="button">Открыть</a>
           </div>
         </div>
       </div>
