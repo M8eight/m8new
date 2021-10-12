@@ -5,7 +5,7 @@
 @section('content')
 
   <div class="container margins">
-    <h2>&#8595; Все страницы &#8595;</h2>
+    <h2>Все страницы</h2>
 
     <div class="accordion accordion-flush" id="accordionFlushExample">
       <div class="accordion-item shadow bg-white rounded">
@@ -48,7 +48,7 @@
         <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
           data-bs-parent="#accordionFlushExample">
           <div class="accordion-body">Откроется небольшой парсер который преобразует json файл в список музыки
-            <a class="btn btn-warning margins_a" href="applications/music.php" role="button">Открыть</a>
+            <a class="btn btn-warning margins_a" href="{{ route('apps-json-show') }}" role="button">Открыть</a>
           </div>
         </div>
       </div>
