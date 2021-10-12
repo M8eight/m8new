@@ -21,6 +21,7 @@ class NoteController extends Controller
         $note->text = $req->main;
         $note->save();
 
+        session()->flash('success');
         return redirect()->route('apps-note-show');
     }
 
@@ -28,6 +29,7 @@ class NoteController extends Controller
     {
         Note::where('id', $key)->delete();
 
+        session()->flash('danger');
         return redirect()->route('apps-note-show');
     }
 }
