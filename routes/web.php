@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\NoteController;
 use App\Http\Controllers\TimerController;
+use App\Http\Controllers\AnecdotesController;
 use App\Http\Controllers\MusicJsonController;
 
 /*
@@ -29,7 +30,7 @@ Route::get('/faq', [
     MainController::class, 'faq'
 ])->name('faq');
 
-Route::get('/apps/timer', [
+Route::get('/apps/timer/show', [
     TimerController::class, 'index'
 ])->name('apps-timer');
 
@@ -37,7 +38,7 @@ Route::group([
     'prefix' => 'note',
 ], function () {
 
-    Route::get('/', [
+    Route::get('/show', [
         NoteController::class, 'show'
     ])->name('apps-note-show');
 
@@ -57,4 +58,13 @@ Route::group([
     Route::get('/show', [
         MusicJsonController::class, 'show'
     ])->name('apps-json-show');
+});
+
+Route::group([
+    'prefix' => 'anecdotes',
+], function () {
+
+    Route::get('/show', [
+        AnecdotesController::class, 'show'
+    ])->name('apps-anecdotes-show');
 });

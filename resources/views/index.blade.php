@@ -63,7 +63,7 @@
         <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
           data-bs-parent="#accordionFlushExample">
           <div class="accordion-body">Это короче приложение которое ворует анекдоты с сайта и пихает суда
-            <a class="btn btn-warning margins_a" href="applications/parser.php" role="button">Открыть</a>
+            <a class="btn btn-warning margins_a" href="{{ route('apps-anecdotes-show') }}" role="button">Открыть</a>
           </div>
         </div>
       </div>
