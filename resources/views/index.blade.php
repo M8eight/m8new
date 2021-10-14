@@ -18,7 +18,7 @@
         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
           data-bs-parent="#accordionFlushExample">
           <div class="accordion-body">Тыкни на кнопку и узнаешь сколько осталось до каникул
-            <a class="btn btn-warning margins_a" href="{{ route('apps-timer') }}" role="button">Открыть</a>
+            <a class="btn btn-success margins_a" href="{{ route('apps-timer') }}" role="button">Открыть</a>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@
         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
           data-bs-parent="#accordionFlushExample">
           <div class="accordion-body">Можно написать что хотите и оно появится на сайте
-            <a class="btn btn-warning margins_a" href="{{ route('apps-note-show') }}" role="button">Открыть</a>
+            <a class="btn btn-success margins_a" href="{{ route('apps-note-show') }}" role="button">Открыть</a>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@
         <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
           data-bs-parent="#accordionFlushExample">
           <div class="accordion-body">Откроется небольшой парсер который преобразует json файл в список музыки
-            <a class="btn btn-warning margins_a" href="{{ route('apps-json-show') }}" role="button">Открыть</a>
+            <a class="btn btn-success margins_a" href="{{ route('apps-json-show') }}" role="button">Открыть</a>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@
         <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
           data-bs-parent="#accordionFlushExample">
           <div class="accordion-body">Это короче приложение которое ворует анекдоты с сайта и пихает суда
-            <a class="btn btn-warning margins_a" href="{{ route('apps-anecdotes-show') }}" role="button">Открыть</a>
+            <a class="btn btn-success margins_a" href="{{ route('apps-anecdotes-show') }}" role="button">Открыть</a>
           </div>
         </div>
       </div>
@@ -77,9 +77,9 @@
         </h2>
         <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
           data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">При нажатии откроется огромный список с трюками
-            <span style="color: maroon;">осторожно, долгая загрузка</span> <a class="btn btn-danger margins_a"
-              href="applications/penspining_trick.php" role="button">Открыть</a>
+          <div class="accordion-body">В базе собраны около 2000+ трюков из пенспининга
+            <a class="btn btn-success margins_a"
+              href="{{ route('apps-penspining-show') }}" role="button">Открыть</a>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@
           data-bs-parent="#accordionFlushExample">
           <div class="accordion-body">Вот статья о там как это <a
               href="https://vk.com/m8eight-chto-takoe-parser-ili-kak-vorovat-kartinki-k-sebe">сделать</a>
-            <a class="btn btn-warning margins_a" href="applications/deti.php" role="button">Открыть</a>
+            <a class="btn btn-success margins_a" href="applications/deti.php" role="button">Открыть</a>
           </div>
         </div>
       </div>
@@ -110,7 +110,7 @@
         <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
           data-bs-parent="#accordionFlushExample">
           <div class="accordion-body">Тут удобнее пользоватся гдз сразу появляется изображение и ссылка
-            <a class="btn btn-warning margins_a" href="applications/gdz.php" role="button">Открыть</a>
+            <a class="btn btn-success margins_a" href="applications/gdz.php" role="button">Открыть</a>
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@
         <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
           data-bs-parent="#accordionFlushExample">
           <div class="accordion-body">Тут удобнее пользоватся гдз сразу появляется изображение и ссылка
-            <a class="btn btn-warning margins_a" href="applications/gdz.php" role="button">Открыть</a>
+            <a class="btn btn-success margins_a" href="applications/gdz.php" role="button">Открыть</a>
           </div>
         </div>
       </div>

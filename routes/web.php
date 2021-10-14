@@ -6,6 +6,8 @@ use App\Http\Controllers\NoteController;
 use App\Http\Controllers\TimerController;
 use App\Http\Controllers\AnecdotesController;
 use App\Http\Controllers\MusicJsonController;
+use App\Http\Controllers\PenspiningController;
+use App\Models\Penspining;
 
 /*
 |--------------------------------------------------------------------------
@@ -68,3 +70,7 @@ Route::group([
         AnecdotesController::class, 'show'
     ])->name('apps-anecdotes-show');
 });
+
+    Route::get('pentrick/show', [
+        PenspiningController::class, 'show'
+    ])->name('apps-penspining-show');
