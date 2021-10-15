@@ -1,13 +1,14 @@
 <?php
 
+use App\Models\Penspining;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\NoteController;
+use App\Http\Controllers\LinksController;
 use App\Http\Controllers\TimerController;
 use App\Http\Controllers\AnecdotesController;
 use App\Http\Controllers\MusicJsonController;
 use App\Http\Controllers\PenspiningController;
-use App\Models\Penspining;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,7 +26,7 @@ Route::get('/', [
 ])->name('index');
 
 Route::get('/links', [
-    MainController::class, 'links'
+    LinksController::class, 'show'
 ])->name('links');
 
 Route::get('/faq', [

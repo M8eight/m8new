@@ -7,16 +7,45 @@
 <div class="container-fluid">
     <div class="row" style="margin-top: 10px; ">
         <div class="col-8">
-
-            <p> <a href="https://vk.com/shish_for_soul" target="_blank"> <img width="48px" height="48px" class="img-fluid rounded-circle" src="https://sun9-25.userapi.com/s/v1/ig2/jDxVnoNmC_YE0Y23WdV7nCU7szKjK0TAf9KAZuAuEykAyHQSPuDb2DrI7yXHIxJLve6cGgRjYMf3GoRoB8msRM1F.jpg?size=50x0&quality=96&crop=91,192,839,839&ava=1" style="border: 2px dashed black;" /></a> <span>Группа вк где выходят </span> <a href="https://vk.com/shish_for_soul" target="_blank">всякие штуки.</a></p>
-
-            <p> <a href="https://open.spotify.com/user/o9w1f70zftyidpqhahphvu62k?si=cxhORgMdRLOYG3qpptlohQ&utm_source=copy-link" target="_blank"> <img src="https://img.icons8.com/fluent/48/000000/spotify.png" class="img-fluid rounded-circle border_solid" width="48px" height="48px" style="border: 2px dashed black;" /></a> <span>Мой </span> <a href="https://open.spotify.com/user/`o9w1f70zftyidpqhahphvu62k?si=cxhORgMdRLOYG3qpptlohQ&utm_source=copy-link" target="_blank">Профиль</a> <span> в spotify</span> </p>
-
-            <p> <a href="https://github.com/M8eight" target="_blank"><img width="48px" height="48px" class="img-fluid rounded-circle border_solid" src="https://avatars.githubusercontent.com/u/82048733?v=4" style="border: 2px dashed black;" /></a> <span>Мой замечательный </span> <a href="https://github.com/M8eight" class="links" target="_blank">github</a></p>
-
-            <p> <a href="https://github.com/M8eight/m8eight.ru" target="_blank"><img width="48px" height="48px" class="img-fluid rounded-circle border_solid" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="border: 2px solid black;" /></a> <span>И </span> <a href="https://github.com/M8eight/m8eight.ru" class="links" target="_blank">репозиторий </a><span>сайта на том же github</span></p>
-
-            <p> <a href="https://t.me/Sapporter" target="_blank"><img width="48px" height="48px" class="img-fluid rounded-circle border_solid" src="https://sun9-45.userapi.com/impg/1Zza_RqOEr6CfdrSXigNlGMRroi7ggSmLCA-xw/Xvt9ltGktRM.jpg?size=640x640&quality=96&sign=0da0fefba0cd21388b2a6c2dbdc17283&type=album" style="border: 2px dashed black;" /></a> <span>Мой </span> <a href="https://t.me/Sapporter" class="links" target="_blank">telegram </a><span>если вам захотелось меня обосрать по поводу кода на сайте</span></p>
+            <h3 class="text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                    <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"></path>
+                    <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"></path>
+                </svg>Ссылки</h3>
+            <div class="list-group">
+                <a target="_blank" href="https://vk.com/endwhile" class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Мой ВК</h5>
+                        <small>Там много музыки и есть полезные статьи</small>
+                    </div>
+                    <img class="rounded-circle" height="50em" src="{{ Storage::url('image/vk_links.jpg') }}" alt="">
+                    <small>Пиши</small>
+                </a>
+                <a target="_blank" href="https://t.me/Endwhile" class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Мой Телеграм</h5>
+                        <small>Телеграм, что еще </small>
+                    </div>
+                    <img class="rounded-circle" height="50em" src="{{ Storage::url('image/telegram_links.jpg') }}" alt="">
+                    <small>Пиши</small>
+                </a>
+                <a target="_blank" href="https://open.spotify.com/user/o9w1f70zftyidpqhahphvu62k" class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Мой Spotify</h5>
+                        <small>Точно не знаю зачем он вам но послушайте если есть </small>
+                    </div>
+                    <img class="rounded-circle" height="50em" width="50em" src="{{ Storage::url('image/spotify_links.jpg') }}" alt="">
+                    <small>Бум бум, слушай музыку</small>
+                </a>
+                <a target="_blank" href="https://github.com/M8eight" class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Мой GitHub</h5>
+                        <small>Там есть мои проэкты, в том числе и этот</small>
+                    </div>
+                    <img class="rounded-circle" height="50em" width="50em" src="https://avatars.githubusercontent.com/u/82048733?v=4" alt="">
+                    <small>Бум бум, слушай музыку</small>
+                </a>
+            </div>
 
         </div>
         <div class="col-4">
