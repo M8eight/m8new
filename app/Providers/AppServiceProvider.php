@@ -32,5 +32,12 @@ class AppServiceProvider extends ServiceProvider
                 (Route::currentRouteNamed(' . $route_name . ')) ? "active" : ""
             ?>';
         });
+
+        Blade::directive('pageActive', function ($numetric) {
+            return '<?php echo 
+                (Route::current()->parameters["page"] == '.$numetric.') ? "active" : ""
+            ?>';
+        });
+
     }
 }

@@ -4,6 +4,7 @@ use App\Models\Penspining;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\NoteController;
+use App\Http\Controllers\ChildController;
 use App\Http\Controllers\LinksController;
 use App\Http\Controllers\TimerController;
 use App\Http\Controllers\AnecdotesController;
@@ -72,6 +73,15 @@ Route::group([
     ])->name('apps-anecdotes-show');
 });
 
-    Route::get('pentrick/show', [
-        PenspiningController::class, 'show'
-    ])->name('apps-penspining-show');
+Route::get('pentrick/show', [
+    PenspiningController::class, 'show'
+])->name('apps-penspining-show');
+
+Route::group([
+    'prefix' => 'child',
+], function () {
+
+    Route::get('/show/{page?}', [
+        ChildController::class, 'show'
+    ])->name('apps-child-show');
+});

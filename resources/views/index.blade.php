@@ -80,8 +80,8 @@
                 </button>
             </h2>
             <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Вот статья о там как это <a href="https://vk.com/m8eight-chto-takoe-parser-ili-kak-vorovat-kartinki-k-sebe">сделать</a>
-                    <a class="btn btn-success margins_a" href="applications/deti.php" role="button">Открыть</a>
+                <div class="accordion-body">Парсер картинок детей
+                    <a class="btn btn-success margins_a" href="{{ route('apps-child-show', 1) }}" role="button">Открыть</a>
                 </div>
             </div>
         </div>

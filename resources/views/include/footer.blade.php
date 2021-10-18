@@ -58,7 +58,7 @@
 <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-2 d-flex align-items-center">
-            <span class="text-muted logo">MegaSuperPuperSite</span>
+            <span class="text-muted logo">Endwhile</span>
         </div>
         <div class="col-md-8">
             <div id="gradient"></div>
