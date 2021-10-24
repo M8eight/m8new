@@ -94,7 +94,7 @@
             </h2>
             <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">Тут удобнее пользоватся гдз сразу появляется изображение и ссылка
-                    <a class="btn btn-success margins_a" href="applications/gdz.php" role="button">Открыть</a>
+                    <a class="btn btn-success margins_a" href="{{ route('apps-gdz_helper') }}" role="button">Открыть</a>
                 </div>
             </div>
         </div>

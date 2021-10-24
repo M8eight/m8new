@@ -8,6 +8,7 @@ use App\Http\Controllers\ChildController;
 use App\Http\Controllers\LinksController;
 use App\Http\Controllers\TimerController;
 use App\Http\Controllers\AnecdotesController;
+use App\Http\Controllers\GdzHelperController;
 use App\Http\Controllers\MusicJsonController;
 use App\Http\Controllers\PenspiningController;
 
@@ -84,4 +85,17 @@ Route::group([
     Route::get('/show/{page?}', [
         ChildController::class, 'show'
     ])->name('apps-child-show');
+});
+
+Route::group([
+    'prefix' => 'gdz-helper',
+], function () {
+
+    Route::get('/show', [
+        GdzHelperController::class, 'show'
+    ])->name('apps-gdz_helper');
+
+    Route::post('/show/search', [
+        GdzHelperController::class, 'handler'
+    ])->name('apps-gdz_helper-post');
 });
