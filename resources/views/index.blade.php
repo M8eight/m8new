@@ -99,4 +99,17 @@
             </div>
         </div>
 
+        <div class="accordion-item shadow bg-white rounded">
+            <h2 class="accordion-header" id="flush-headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                    Средний бал оценок
+                </button>
+            </h2>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Данная программа выводит ваш средний бал по всем предметам и показывает по каким вы непреемлемый средний бал
+                    <a class="btn btn-success margins_a" href="{{ route('apps-eschool_avg-show') }}" role="button">Открыть</a>
+                </div>
+            </div>
+        </div>
+
         @endsection

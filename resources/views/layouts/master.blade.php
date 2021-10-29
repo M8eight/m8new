@@ -10,6 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     @yield('alt-code')
+    <script>
+        var time = setInterval(function() {
+            var date = new Date();
+            document.getElementById("time").innerHTML = (date.getHours() + ":" + date.getMinutes());
+        }, 1000);
+    </script>
 </head>
 
 <body>

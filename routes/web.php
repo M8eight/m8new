@@ -10,6 +10,7 @@ use App\Http\Controllers\TimerController;
 use App\Http\Controllers\AnecdotesController;
 use App\Http\Controllers\GdzHelperController;
 use App\Http\Controllers\MusicJsonController;
+use App\Http\Controllers\EschoolAvgController;
 use App\Http\Controllers\PenspiningController;
 
 /*
@@ -98,4 +99,14 @@ Route::group([
     Route::post('/show/search', [
         GdzHelperController::class, 'handler'
     ])->name('apps-gdz_helper-post');
+});
+
+Route::group([
+    'prefix' => 'avg',
+], function () {
+
+    Route::get('/show', [
+        EschoolAvgController::class, 'show'
+    ])->name('apps-eschool_avg-show');
+
 });

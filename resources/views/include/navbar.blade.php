@@ -17,5 +17,12 @@
                   </li>
               </ul>
           </div>
+          <div class="flex-d">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <i><span style="font-family: 'ZCOOL QingKe HuangYou', cursive; font-size: 1.7em;" id="time" class="text-white" aria-current="page"></span></i>
+                    </li>
+                </ul>
+          </div>
       </div>
   </nav>
