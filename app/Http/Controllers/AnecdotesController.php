@@ -12,8 +12,7 @@ class AnecdotesController extends Controller
 
     public function show()
     {
-        
-        include "C:/OpenServer/domains/m8new/vendor/autoload.php";
+        // include "/vendor/autoload.php";
         $getFile = file_get_contents('https://www.anekdot.ru/');
         $crawler = new Crawler($getFile);
         $crawler = $crawler->filter('.text');

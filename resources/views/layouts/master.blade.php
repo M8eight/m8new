@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="ru">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,9 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     @yield('alt-code')
     <script>
-        var time = setInterval(function() {
-            var date = new Date();
-            document.getElementById("time").innerHTML = (date.getHours() + ":" + date.getMinutes());
+        let time = setInterval(function() {
+            let date = new Date();
+            if (date.getMinutes() < 10) {
+                var gl = '0' + date.getMinutes();
+            } else {
+                var gl = date.getMinutes();
+            }
+            res = date.getHours() + ':' + gl;
+            document.getElementById("time").innerHTML = res;
         }, 1000);
     </script>
 </head>
@@ -27,4 +34,5 @@
     @include('..include.footer')
 
 </body>
+
 </html>

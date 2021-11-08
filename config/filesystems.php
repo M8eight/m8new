@@ -33,6 +33,7 @@ return [
         'local' => [
             'driver' => 'local',
             'root' => storage_path('app'),
+            'visibility' => 'public',
         ],
 
         'json' => [
@@ -51,8 +52,8 @@ return [
 
         'image' => [
             'driver' => 'local',
-            'root' => storage_path('app/image'),
-            'url' => env('APP_URL').'/storage',
+            'root' => storage_path('/app/image'),
+            'url' => env('APP_URL').'/storage/image',
             'visibility' => 'public',
         ],
 
