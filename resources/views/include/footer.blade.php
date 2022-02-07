@@ -58,13 +58,13 @@
 <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-2 d-flex align-items-center">
-            <span class="text-muted logo">Endwhile</span>
+            <span class="text-muted logo">M8eight</span>
         </div>
         <div class="col-md-8">
             <div id="gradient"></div>
         </div>
         <ul class="nav col-md-2 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-muted" href="https://vk.com/endwhile">Vk</a></li>
+            <li class="ms-3"><a class="text-muted" href="https://vk.com/id512131497">Vk</a></li>
             <li class="ms-3"><a class="text-muted" href="https://t.me/Endwhile">Telegram</a></li>
         </ul>
     </footer>

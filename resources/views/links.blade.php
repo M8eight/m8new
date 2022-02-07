@@ -16,34 +16,30 @@
                 <a target="_blank" href="https://vk.com/id512131497" class="list-group-item list-group-item-action" aria-current="true">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1">Мой ВК</h5>
-                        <small>Там много музыки и есть полезные статьи</small>
+                        <small>Перейти </small>
                     </div>
-                    <img class="rounded-circle" height="50em" src="https://sun9-69.userapi.com/s/v1/ig2/eKpoj1n5AfhY07O7wd95yFqjvYixsAFAegmgWBPjLIgWmB6CjTyf735zfGuDQ2UY_JvHF2uHpiPW0zaev1S6aygQ.jpg?size=200x200&quality=95&crop=156,43,466,466&ava=1" alt="">
-                    <small>Пиши</small>
+                    <img class="rounded-circle" height="50em" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/VK.com-logo.svg/2048px-VK.com-logo.svg.png" alt="">
                 </a>
                 <a target="_blank" href="https://t.me/Endwhile" class="list-group-item list-group-item-action" aria-current="true">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1">Мой Телеграм</h5>
-                        <small>Телеграм, что еще </small>
+                        <small>Перейти </small>
                     </div>
-                    <img class="rounded-circle" height="50em" src="https://cdn4.telesco.pe/file/J7zNQ3HTbgUIBkSAiQdwsUv07urQaFQKt07_T1-mFet3ykUP7nHCiE4bRXY0_ofLXTj22PlAWopZ76DFxcvjxGQ8rmQH10_Vqof14Qn9HfGDlF0uNV5xyx7-ftu72JKxtMYspynBT4Fd5IJYKKcThwpz9y9WOVnabZIWEHwvTZ3-NdlfQHaZRmX3VBwX4V8T0sFr2HSEz5VzYn7ewiJZZzgll8kS4N2cwxA9VyUyoNOmeQuWndPoGvD77aAqk--ExPdu8Z45kRT64-L1Zg0F9HYGV4W4tIDgxlgitV2CxZ2TtnALueR-QKmID6wkSpSxNgcjnII7TxIx6yae6ONYHw.jpg" alt="">
-                    <small>Пиши</small>
+                    <img class="rounded-circle" height="50em" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" alt="">
                 </a>
                 <a target="_blank" href="https://open.spotify.com/user/o9w1f70zftyidpqhahphvu62k" class="list-group-item list-group-item-action" aria-current="true">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1">Мой Spotify</h5>
-                        <small>Точно не знаю зачем он вам но послушайте если есть </small>
+                        <small>Перейти </small>
                     </div>
-                    <img class="rounded-circle" height="50em" width="50em" src="https://i.scdn.co/image/ab6775700000ee85506849b8578edd71914f5f17" alt="">
-                    <small>Бум бум, слушай музыку</small>
+                    <img class="rounded-circle" height="50em" width="50em" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png" alt="">
                 </a>
                 <a target="_blank" href="https://github.com/M8eight" class="list-group-item list-group-item-action" aria-current="true">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1">Мой GitHub</h5>
-                        <small>Там есть мои проэкты, в том числе и этот</small>
+                        <small>Перейти </small>
                     </div>
-                    <img class="rounded-circle" height="50em" width="50em" src="https://avatars.githubusercontent.com/u/82048733?v=4" alt="">
-                    <small>Бум бум, слушай музыку</small>
+                    <img class="rounded-circle" height="50em" width="50em" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="">
                 </a>
             </div>
 

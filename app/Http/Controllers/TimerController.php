@@ -25,7 +25,7 @@ class TimerController extends Controller
         $result_mass['day'] = $day - $date_mass['mday'];
         $result_mass['month'] = $month - $date_mass['mon'];
         $result_mass['hour'] = $hours - $date_mass['hours'];
-        $result_mass['year'] = $date_mass['year'] - $date_mass['year'] + 1;
+        // $result_mass['year'] = $date_mass['year'];
         $result_mass['monthW'] = $date_mass['month'];
 
 
@@ -79,13 +79,12 @@ class TimerController extends Controller
 
         if ($result_mass['month'] <= 0) {
             $result_mass['month'] += 12;
-            $result_mass['year']--;
         }
 
         $this->day = $result_mass['day'];
         $this->month = $result_mass['month'];
         $this->hour = $result_mass['hour'];
-        $this->year = $result_mass['year'];
+        // $this->year = $result_mass['year'];
     }
 
     public function logic()
@@ -101,7 +100,7 @@ class TimerController extends Controller
         $result_mass['day'] = $day - $date_mass['mday'];
         $result_mass['month'] = $month - $date_mass['mon'];
         $result_mass['hour'] = $hours - $date_mass['hours'];
-        $result_mass['year'] = $date_mass['year'] - $date_mass['year'] + 1;
+        // $result_mass['year'] = $date_mass['year'] - $date_mass['year'] + 1;
         $result_mass['monthW'] = $date_mass['month'];
 
 
@@ -155,7 +154,7 @@ class TimerController extends Controller
 
         if ($result_mass['month'] <= 0) {
             $result_mass['month'] += 12;
-            $result_mass['year']--;
+            // $result_mass['year']--;
         }
 
         unset($result_mass['monthW']);
@@ -255,6 +254,6 @@ class TimerController extends Controller
         $sayDay = $this->sayDay();
         $sayHour = $this->sayHours();
         $sayMonth = $this->sayMonth();
-        return view('apps.timer', compact('returnDate', 'sayDay', 'sayHour', 'sayMonth'));
+        return view('apps.timer.timer', compact('returnDate', 'sayDay', 'sayHour', 'sayMonth'));
     }
 }

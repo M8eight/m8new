@@ -11,7 +11,7 @@ class EschoolAvgController extends Controller
     public function show()
     {
         // Общее
-        $getFile = Storage::disk('local')->get('es_avg/avg.html');
+        $getFile = Storage::disk('public')->get('es_avg/avg.html');
 
         // Список предметов
         $crawler = new Crawler($getFile);

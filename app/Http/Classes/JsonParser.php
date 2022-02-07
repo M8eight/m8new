@@ -10,14 +10,14 @@ class JsonParser
 
     public static function getJson()
     {
-        $get = Storage::disk('json')->get('spotify.json');
+        $get = Storage::disk('public')->get('spotify_data/YourLibrary.json');
 
         return $get;
     }
 
     public static function getMass()
     {
-        $get = Storage::disk('json')->get('spotify.json');
+        $get = Storage::disk('public')->get('spotify_data/YourLibrary.json');
         $mass = json_decode($get, true);
         
         return $mass;
@@ -25,7 +25,7 @@ class JsonParser
 
     public static function getFormattedMass($album_flag = false)
     {
-        $get = Storage::disk('json')->get('spotify.json');
+        $get = Storage::disk('public')->get('spotify_data/YourLibrary.json');
         $mass = json_decode($get, true);
         unset($mass['other'], $mass['bannedTracks'], $mass['episodes'], $mass['shows']);
         if($album_flag) {

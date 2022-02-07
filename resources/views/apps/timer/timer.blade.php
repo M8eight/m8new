@@ -53,11 +53,8 @@
 
     <h3 style="font-size: 4em;">
         {{-- {{ dd($returnDate) }} --}}
-        @if($returnDate['year'] == 0)
 
-        @else
-        {{ $returnDate['year'].' лет' }} <br>
-        @endif
+
         {{ $returnDate['month'].' '.$sayMonth }} <br>
         {{ $returnDate['day'].' '.$sayDay }} <br>
         {{ $returnDate['hour'].' '.$sayHour }}
@@ -73,8 +70,6 @@
         </div>
         <div class="offcanvas-body">
             Отсчет идет до 25 мая 00:00
-            При изменении склонения, например 1 час, 2 часа 5 часов. Все это меняется автоматически и в планах у меня подучить js и сделать
-            это все вместе с секундами и в реалтайме.
         </div>
     </div>
 </div>
